@@ -6,7 +6,7 @@ class Site extends Model {
       {
         hits: Sequelize.INTEGER,
         url: Sequelize.STRING,
-        shortUrl: Sequelize.STRING,
+        short_url: Sequelize.STRING,
       },
       {
         sequelize,

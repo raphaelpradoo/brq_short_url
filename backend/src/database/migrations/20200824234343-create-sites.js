@@ -12,10 +12,10 @@ module.exports = {
         allowNull: false,
       },
       url: {
-        type: Sequelize.STRING(200),
+        type: Sequelize.STRING,
         allowNull: false,
       },
-      shortUrl: {
+      short_url: {
         type: Sequelize.STRING(50),
         allowNull: false,
       },
