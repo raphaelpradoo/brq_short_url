@@ -2,21 +2,18 @@
   <img alt="brq" height="300" title="brq" src="logo.png" />
 </h1>
 
-<p align="center">Processo Seletivo BRQ.</p>
-
-<p align="center">Projeto: Encurtador de URL.</p>
-
 <p align="center">
- <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
- <a href="#computer-instalação-execução-e-desenvolvimento">Instalação, execução e desenvolvimento</a>
+## Processo Seletivo BRQ
 </p>
-            
+
+## Projeto: Encurtador de URL
+          
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [VSCode](https://code.visualstudio.com/)(IDE de Desenvolvimento)
-- [Insomnia](https://insomnia.rest/)(Testes de API Restful)
+- [VSCode](https://code.visualstudio.com/) (IDE de Desenvolvimento)
+- [Insomnia](https://insomnia.rest/) (Testes de API Restful)
 - [NodeJS](https://nodejs.org/en/)
 - [ExpressJS](https://github.com/expressjs/express)
 - [Nodemon](https://nodemon.io/) (Reload automatico do servidor)
