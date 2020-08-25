@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-## Processo Seletivo BRQ
+  Processo Seletivo da empresa BRQ.
 </p>
 
 ## Projeto: Encurtador de URL
