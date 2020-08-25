@@ -11,7 +11,7 @@ class StatsController {
 
     // 10 Urls mais acessadas
     const topUrls = await Site.findAll({
-      limit: 5,
+      limit: 10,
       order: [['hits', 'DESC']],
       attributes: ['id', 'hits', 'url', 'short_url'],
     });
