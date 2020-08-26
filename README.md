@@ -14,6 +14,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [VSCode](https://code.visualstudio.com/) (IDE de Desenvolvimento)
 - [Insomnia](https://insomnia.rest/) (Testes de API Restful)
+- [Yarn](https://yarnpkg.com/) (Gerenciador de pacotes para JavaScript)
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://github.com/expressjs/express)
 - [Nodemon](https://nodemon.io/) (Reinicia automaticamente o servidor após alterações nos arquivos)
@@ -22,20 +23,22 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Sequelize](https://sequelize.org/) (Mapeamento do Banco de Dados)
 - [Jest](https://jestjs.io/) (Testes unitários)
 
-## :computer: Instalação, execução e desenvolvimento
+## :computer: Instalação e execução 
 
 ### Container
 
 Criar o seguinte container no Docker com o comando: 
+
 `docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres`
 
 ### Banco de Dados
 
 Abrir a seguinte conexão no Postbird:
-- Lost: localhost,
+- Lost: localhost
 - Port: 5432
 - Username: postgres
 - Password: docker
+
 Criar um banco chamado `brq`
 
 ### Git
